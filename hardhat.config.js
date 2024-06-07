@@ -24,19 +24,23 @@ module.exports = {
       gasPrice: 225000000000,
       chainId: !forkingData ? 43112 : undefined, 
       forking: forkingData,
-      port: 8546
     },
-    fuji: {
-      url: "https://api.avax-test.network/ext/bc/C/rpc",
-      gasPrice: 225000000000,
-      chainId: 43113,
-      accounts: ['Private Key'], 
-    },
-    mainnet: {
-      url: "https://api.avax.network/ext/bc/C/rpc",
-      gasPrice: 225000000000,
-      chainId: 43114,
-      accounts: ['Private Key'],
+
+    // Uncomment for test with fuji
+    // fuji: {
+    //   url: "https://api.avax-test.network/ext/bc/C/rpc",
+    //   gasPrice: 225000000000,
+    //   chainId: 43113,
+    //   accounts: ['Private Key'], 
+    // },
+    // mainnet: {
+    //   url: "https://api.avax.network/ext/bc/C/rpc",
+    //   gasPrice: 225000000000,
+    //   chainId: 43114,
+    //   accounts: ['Private Key'],
+    // },
+    localhost: {
+      url: "http://localhost:8545", // Adjust port number if needed
     },
   },
   etherscan: {

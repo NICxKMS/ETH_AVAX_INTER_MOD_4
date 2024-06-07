@@ -1,9 +1,9 @@
 {
   "_format": "hh-sol-cache-2",
   "files": {
-    "/workspaces/DegenToken/contracts/DegenToken.sol": {
-      "lastModificationDate": 1717741944969,
-      "contentHash": "8fa1bc97724b971d411818dbbeb6d1dc",
+    "/workspaces/ETH_AVX_INTER_MOD_4/contracts/DegenToken.sol": {
+      "lastModificationDate": 1717743924783,
+      "contentHash": "cb3f8915425a4dbe9c5c8b3969166c7e",
       "sourceName": "contracts/DegenToken.sol",
       "solcConfig": {
         "version": "0.8.20",
@@ -40,8 +40,46 @@
         "DegenToken"
       ]
     },
-    "/workspaces/DegenToken/node_modules/@openzeppelin/contracts/token/ERC20/ERC20.sol": {
-      "lastModificationDate": 1717420706703,
+    "/workspaces/ETH_AVX_INTER_MOD_4/node_modules/@openzeppelin/contracts/access/Ownable.sol": {
+      "lastModificationDate": 1717749059020,
+      "contentHash": "5a20b2cad87ddb61c7a3a6af21289e28",
+      "sourceName": "@openzeppelin/contracts/access/Ownable.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../utils/Context.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Ownable"
+      ]
+    },
+    "/workspaces/ETH_AVX_INTER_MOD_4/node_modules/@openzeppelin/contracts/token/ERC20/ERC20.sol": {
+      "lastModificationDate": 1717749058428,
       "contentHash": "3ae5166c6827a9cf1a7a462d1632b464",
       "sourceName": "@openzeppelin/contracts/token/ERC20/ERC20.sol",
       "solcConfig": {
@@ -80,46 +118,8 @@
         "ERC20"
       ]
     },
-    "/workspaces/DegenToken/node_modules/@openzeppelin/contracts/access/Ownable.sol": {
-      "lastModificationDate": 1717420706751,
-      "contentHash": "5a20b2cad87ddb61c7a3a6af21289e28",
-      "sourceName": "@openzeppelin/contracts/access/Ownable.sol",
-      "solcConfig": {
-        "version": "0.8.20",
-        "settings": {
-          "evmVersion": "paris",
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "../utils/Context.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "Ownable"
-      ]
-    },
-    "/workspaces/DegenToken/node_modules/@openzeppelin/contracts/utils/Context.sol": {
-      "lastModificationDate": 1717420706687,
+    "/workspaces/ETH_AVX_INTER_MOD_4/node_modules/@openzeppelin/contracts/utils/Context.sol": {
+      "lastModificationDate": 1717749057792,
       "contentHash": "f07feb4a44b1a4872370da5aa70e8e46",
       "sourceName": "@openzeppelin/contracts/utils/Context.sol",
       "solcConfig": {
@@ -154,8 +154,8 @@
         "Context"
       ]
     },
-    "/workspaces/DegenToken/node_modules/@openzeppelin/contracts/token/ERC20/IERC20.sol": {
-      "lastModificationDate": 1717420706735,
+    "/workspaces/ETH_AVX_INTER_MOD_4/node_modules/@openzeppelin/contracts/token/ERC20/IERC20.sol": {
+      "lastModificationDate": 1717749058828,
       "contentHash": "df36f7051335cd1e748b1b6463b7fdd3",
       "sourceName": "@openzeppelin/contracts/token/ERC20/IERC20.sol",
       "solcConfig": {
@@ -190,8 +190,8 @@
         "IERC20"
       ]
     },
-    "/workspaces/DegenToken/node_modules/@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol": {
-      "lastModificationDate": 1717420706735,
+    "/workspaces/ETH_AVX_INTER_MOD_4/node_modules/@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol": {
+      "lastModificationDate": 1717749058836,
       "contentHash": "909ab67fc5c25033fe6cd364f8c056f9",
       "sourceName": "@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol",
       "solcConfig": {
