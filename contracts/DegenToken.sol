@@ -18,7 +18,7 @@ contract DegenToken is ERC20, Ownable {
     
     constructor()
         ERC20("Degen", "DGN")
-{        redeemableItems.push("Choose Number respectively starting form 1 "); 
+{       redeemableItems.push("Choose Number respectively starting form 1 "); 
         redeemableItems.push("Silver Loot Box");
         redeemableItems.push("Gold Loot Box");
         redeemableItems.push("Platinum Loot Box");

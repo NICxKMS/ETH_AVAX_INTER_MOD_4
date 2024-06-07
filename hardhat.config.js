@@ -22,7 +22,7 @@ module.exports = {
   networks: {
     hardhat: {
       gasPrice: 225000000000,
-      chainId: !forkingData ? 43112 : undefined, //Only specify a chainId if we are not forking
+      chainId: !forkingData ? 43112 : undefined, 
       forking: forkingData,
       port: 8546
     },
@@ -30,16 +30,16 @@ module.exports = {
       url: "https://api.avax-test.network/ext/bc/C/rpc",
       gasPrice: 225000000000,
       chainId: 43113,
-      accounts: ['18d03350051e2a2b3fa5d163b9c04edb7af9fbedf915196fbb8de13f6f17026d'], // we use a .env file to hide our wallets private key
+      accounts: ['Private Key'], 
     },
     mainnet: {
       url: "https://api.avax.network/ext/bc/C/rpc",
       gasPrice: 225000000000,
       chainId: 43114,
-      accounts: ['18d03350051e2a2b3fa5d163b9c04edb7af9fbedf915196fbb8de13f6f17026d'],
+      accounts: ['Private Key'],
     },
   },
   etherscan: {
-    apiKey: 'ZCCMFU3C8K5A9MDNHGXP3YCJWRV5MPJ73S', // we use an .env file to hide our Snowtrace API KEY
+    apiKey: 'API KEY', 
   },
 };
